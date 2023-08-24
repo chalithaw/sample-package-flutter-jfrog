@@ -2,7 +2,7 @@ name: test_package
 description: A new Flutter package project.
 version: 0.0.1
 publish_to: https://premiumsarl.jfrog.io/artifactory/api/pub/math-pub
-homepage: https://github.com/adityathakurxd/fancy_containers
+homepage: https://github.com/contactpkumara/test_package
 
 environment:
   sdk: '>=3.0.6 <4.0.0'
