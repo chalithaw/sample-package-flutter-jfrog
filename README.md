@@ -4,15 +4,23 @@
 Fancy container package lets you add a beautiful gradient container to your Flutter app.
 
 ## Installation
+1. Authenticate the Jfrog Artifactory
 
-1. Add the latest version of package to your pubspec.yaml (and run`dart pub get`):
+Run the Following Command
+```
+dart pub token add “https://premiumsarl.jfrog.io/artifactory/api/pub/math-pub”
+```
+
+Then It will asked authentication toke. Which will be provided by personaly.
+
+2. Add the latest version of package to your pubspec.yaml (and run`dart pub get`):
 ```yaml
 dependencies:
   test_package:
     hosted: https://premiumsarl.jfrog.io/artifactory/api/pub/math-pub
     version: ^0.0.1
 ```
-2. Import the package and use it in your Flutter App.
+3. Import the package and use it in your Flutter App.
 ```dart
 import 'package:test_package/test_package.dart';
 ```
