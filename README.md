@@ -1,5 +1,5 @@
 
-# TestPackage Containers
+# Sample Package For Flutter Application Using Private ArtiFactory Repository
 
 Fancy container package lets you add a beautiful gradient container to your Flutter app.
 
