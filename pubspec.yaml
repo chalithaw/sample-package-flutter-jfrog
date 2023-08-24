@@ -1,7 +1,7 @@
 name: test_package
 description: A new Flutter package project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/adityathakurxd/fancy_containers
 
 environment:
   sdk: '>=3.0.6 <4.0.0'
