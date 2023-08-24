@@ -8,7 +8,9 @@ Fancy container package lets you add a beautiful gradient container to your Flut
 1. Add the latest version of package to your pubspec.yaml (and run`dart pub get`):
 ```yaml
 dependencies:
-  test_package: ^0.0.1
+  test_package:
+    hosted: https://premiumsarl.jfrog.io/artifactory/api/pub/math-pub
+    version: ^0.0.1
 ```
 2. Import the package and use it in your Flutter App.
 ```dart
@@ -42,7 +44,8 @@ class TestPackage extends StatelessWidget {
           title: 'Hello World',  
           color1: Colors.lightGreenAccent,  
           color2: Colors.lightBlue,  
-          subtitle: 'This is a new package',  
+          subtitle: 'This is a new package',
+          subtitleColor: Colors.black,
         ),  
       ),  
     );  
